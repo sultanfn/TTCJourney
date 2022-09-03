@@ -1,0 +1,69 @@
+html{
+    scroll-behavior: smooth;
+}
+.h-50{
+    max-height: 500px;
+}
+
+/*Header Menu */
+.my-menu li{
+    /* Dropdown Menu */
+    position: relative;
+}
+.my-menu li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: .6rem 1.2rem;
+    color: #fff;
+    font-weight: 500;
+}
+.my-menu .active{
+    color: #e73c3e;
+}
+.my-menu li a:hover{
+    color: #e73c3e;
+}
+.my-menu li:hover >a{
+    color: #e73c3e;
+}
+.red{
+    color: #e73c3e !important;
+}
+
+
+/* Blog */
+.my-btn{
+    display: inline-block;
+    padding: .8rem 2.5rem;
+    border: 2px solid #dc3545;
+    background: #dc3545;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 2rem;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.card-title{
+    font-size: 1.8rem;
+}
+.card .my-btn:hover{
+    color: #000;
+}
+
+/* Form */
+.form{
+    font-weight: bold;
+}
+
+/* Footer */
+footer p {
+    margin-bottom: 0;
+}
